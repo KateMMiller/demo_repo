@@ -149,8 +149,8 @@ mtcars %>%
   stat_smooth() +
   facet_wrap(~ var, scales = "free") +
   theme_bw()+
-  scale_fill_gradientn(colours = Turbo(out.colors = length(mtcars)-1))
-#why is this just shades of blue, instead of Turbo?
+  scale_color_gradientn(colours = Turbo(out.colors = length(mtcars)-1))
+
 
 
 
