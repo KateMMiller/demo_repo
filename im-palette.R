@@ -166,6 +166,12 @@ im_palettes <- list(
 #' @param ... Additional arguments to pass to colorRampPalette()
 #'
 im_pal <- function(palette = "NPS", reverse = FALSE, ...) {
+  #check to see if the palette exists; if not return the default 'NPS' and a message to the user
+  if (is.null(im_palettes[[palette]])) {
+    palette <- "NPS"
+    message("Palette does not exist. Using 'NPS' instead.")
+  }
+  
   pal <- im_palettes[[palette]]
   
   if (reverse) pal <- rev(pal)
