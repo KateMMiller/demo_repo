@@ -13,3 +13,5 @@ nps_5 <- im_pal()(5)                        #generate 5 colors from the default 
 pal.test(dry_to_wet_5)
 pal.test(dry_to_wet_10)
 pal.test(nps_5)
+pal.test(im_pal('IMD')(5))
+pal.test(im_pal('IMD this does not exist')(5))
