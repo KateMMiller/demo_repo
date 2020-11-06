@@ -140,8 +140,6 @@ im_cols <- function(...) {
 # TODO: Narrow these down. From JP: "One thing that might be good is to have different palettes for various uses. For example one palette for un-ordered categories (like veg types or soil types), one for ordered categories (degree of wood rot, or categories of veg cover) and one or more for numeric gradients."
 # List of all color palettes
 im_palettes <- list(
-  `IMD LIGHT` = im_cols("IMD RED L", "IMD DBROWN L", "IMD LBROWN L", "IMD GOLD L", "IMD GREEN L", "IMD BLUE L", "IMD WHITE L", "IMD GRAY L", "IMD BLACK L"),
-  `IMD DARK` = im_cols("IMD RED D", "IMD DBROWN D", "IMD LBROWN D", "IMD GOLD D", "IMD GREEN D", "IMD BLUE D", "IMD WHITE D", "IMD GRAY D", "IMD BLACK D"),
   `IMD` = im_cols("IMD RED", "IMD DBROWN", "IMD LBROWN", "IMD GOLD", "IMD GREEN", "IMD BLUE", "IMD WHITE", "IMD GRAY", "IMD BLACK"),
   `NPS` = im_cols("NPS BLUE", "NPS ORANGE", "NPS BROWN", "IMD WHITE L", "NPS GREEN", "NPS BROWN D"),
   `DRY TO WET` = im_cols("IMD RED", "DULL RED", "TAN BROWN", "IMD BLUE", "DEEP AQUA", "DARK AQUA", "LAKE", "OCEAN BLUE", "MARINE BLUE"),
