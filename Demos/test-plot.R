@@ -1,5 +1,5 @@
 # Code shamelessly plagiarized from http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html#Scatterplot
-source("theme_IMD.R")
+source("Demos\\theme_IMD.R")
 
 library(ggplot2)
 data("midwest", package = "ggplot2")
